@@ -8,6 +8,9 @@
 	<script src="js/app.js"></script>
 	<script src="js/controller/poolController.js"></script>
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<style>
+		body { padding-top:20px; }
+	</style>
 </head>
 <body ng-app="poolApp">
     
