@@ -12,6 +12,6 @@ app.config(['$routeProvider',
                 controller: 'poolController'
             }).
             otherwise({
-                redirectTo: '/view'
+                redirectTo: '/'
             });
     }]);

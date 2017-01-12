@@ -5,15 +5,12 @@
             <div class="panel-body">
                 <input type="text" ng-model="newpool.title">
                 <button class="btn btn-primary" type="button" ng-click="addPool()">Add Pool</button>
-                <div class="row">
-                    <a href="#/view" class="thumb"><button class="btn btn-primary" type="button">List</button></a>
-                </div>
             </div>
         </div>
     </div>
     <div class="col-md-3" ng-repeat="pool in pools">
         <div class="panel panel-default">
-            <div class="panel-heading"><h3>{{pool.title}}</h3> <button class="btn btn-danger" type="button" ng-click="removePool(pool)">Remove
+            <div class="panel-heading"><h3>{{ pool.title }}</h3> <button class="btn btn-danger" type="button" ng-click="removePool(pool)">Remove
             </button></div>
             <div class="panel-body">
                 <table class="table table-striped">
@@ -32,4 +29,8 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="row">
+    <a href="#/view" class="thumb"><button class="btn btn-primary" type="button">List</button></a>
 </div>
