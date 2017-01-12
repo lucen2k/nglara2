@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function(){
+	return View::make('index'); // app/views/index.php を出力する
 });
 
 Route::resource('api/pool','PoolsController');
